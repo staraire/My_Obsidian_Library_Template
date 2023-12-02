@@ -1,0 +1,82 @@
+{
+  "choices": [
+    {
+      "id": "bcde03dc-0fbd-4d70-b059-602818197dd0",
+      "name": "[脚本]添加书籍",
+      "type": "Macro",
+      "command": true,
+      "macroId": "a88d8b1c-4994-49b0-b12f-719fe7dfa7d7"
+    }
+  ],
+  "macros": [
+    {
+      "name": "[脚本]添加书籍",
+      "id": "a88d8b1c-4994-49b0-b12f-719fe7dfa7d7",
+      "commands": [
+        {
+          "name": "bookfromdouban",
+          "type": "UserScript",
+          "id": "34acff2c-4d53-405c-b44b-d74df2e5f8c2",
+          "path": "Script/bookfromdouban.js",
+          "settings": {}
+        },
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "7f3edec2-0056-45fa-999d-af1dbe2f712a",
+          "choice": {
+            "id": "05eed992-8400-4a5a-b9b4-4e22c7e4dbd7",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Template/书籍模板.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:bookname}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "书库/0_inbox"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "1.6.0",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

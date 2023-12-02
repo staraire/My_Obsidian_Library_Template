@@ -1,0 +1,18 @@
+{
+  "cookies": [],
+  "noteLocation": "微信读书",
+  "dailyNotesLocation": "/",
+  "insertAfter": "<!-- start of weread -->",
+  "insertBefore": "<!-- end of weread -->",
+  "dailyNotesFormat": "YYYY-MM-DD",
+  "lastCookieTime": 1701484496565,
+  "isCookieValid": false,
+  "user": "",
+  "userVid": "",
+  "template": "---\nisbn: {{metaData.isbn}}\ncategory: {{metaData.category}}\nlastReadDate: {{metaData.lastReadDate}}\ntags: \n- 微信读书/{{metaData.category}}\n---\n# 元数据\n> [!abstract] {{metaData.title}}\n> - ![ {{metaData.title}}|200]({{metaData.cover}})\n> - 书名： {{metaData.title}}\n> - 作者： {{metaData.author}}\n> - 简介： {{metaData.intro}}\n> - 出版时间 {{metaData.publishTime}}\n> - ISBN： {{metaData.isbn}}\n> - 分类： {{metaData.category}}\n> - 出版社： {{metaData.publisher}}\n\n# 高亮划线\n{% for chapter in chapterHighlights %}\n## {{chapter.chapterTitle}}\n{% for highlight in chapter.highlights %}\n{% if highlight.reviewContent %}{% else %}\n\n> 📌 {{ highlight.markText |trim }} ⏱ {{highlight.createTime}} ^{{highlight.bookmarkId}}\n\n{% endif %} {% endfor %}{% endfor %}\n\n# 读书笔记\n{% for chapter in bookReview.chapterReviews %}{% if chapter.reviews or chapter.chapterReview %}\n## {{chapter.chapterTitle}}\n{% if  chapter.chapterReviews %}{% for chapterReview in chapter.chapterReviews %}\n### 章节评论 No.{{loop.index}}\n- {{chapterReview.content}} ^{{chapterReview.reviewId}}\n    - ⏱ {{chapterReview.createTime}} {% endfor%}{%endif %}{% if chapter.reviews %}{%for review in chapter.reviews %}\n\n> {{review.abstract |trim }}  ^{{review.reviewId}}\n- 💭 {{review.content}} ⏱ {{review.createTime}}\n\n{% endfor %} {%endif %} {% endif %} {% endfor %}\n# 本书评论\n{% if bookReview.bookReviews %}{% for bookReview in bookReview.bookReviews %}\n## 书评 No.{{loop.index}} \n> {{bookReview.mdContent}} ⏱ {{bookReview.createTime}} ^{{bookReview.reviewId}}\n\n{% endfor%}{% endif %}",
+  "noteCountLimit": -1,
+  "subFolderType": "category",
+  "fileNameType": "BOOK_NAME",
+  "dailyNotesToggle": false,
+  "notesBlacklist": ""
+}

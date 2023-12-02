@@ -1,0 +1,9 @@
+{
+  "showUnsupportedFiles": true,
+  "propertiesInDocument": "hidden",
+  "showInlineTitle": false,
+  "readableLineLength": false,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute",
+  "promptDelete": false
+}

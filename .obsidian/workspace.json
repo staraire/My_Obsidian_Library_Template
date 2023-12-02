@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "98e082434be460f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8091ee3a1d6d999",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c88092fcc72b9e27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "书库.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0982c6a64964945a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b45658570e61ebb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "450c40b960da906a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c4b3544da733f8ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#书籍",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fb894dd70a813447",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d4588a7eabf924b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e52cdc07a505dd8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6e2fae55acb98c2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "书库.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4d9c5720a71133d3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "书库.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e72d2fd3846f8d49",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "32d0e9d4035f3cd0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "书库.md"
+              }
+            }
+          },
+          {
+            "id": "20fa73e863d5da4c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-weread-plugin:Weread": false
+    }
+  },
+  "active": "c88092fcc72b9e27",
+  "lastOpenFiles": [
+    "查询书.md",
+    "书库.md",
+    "读书笔记/微积分的力量.md",
+    "书库/O_数理科学/O1_数学/微积分的力量.md",
+    "读书清单/2023年读书清单.md",
+    "书库/H_语言文字/说文解字.md",
+    "书库/B_哲学/B84_心理学/自控力.md",
+    "书库/H_语言文字/汉字就是这么来的：走进汉字世界.md",
+    "微信读书/科学技术/芯片简史.md",
+    "微信读书/计算机/网络是怎样连接的.md",
+    "微信读书/计算机/利用Python进行数据分析（原书第2版）.md",
+    "微信读书/计算机/软技能2：软件开发者职业生涯指南.md",
+    "微信读书/计算机/Linux命令行大全（第2版）.md",
+    "微信读书/文学/小王子（经典译林）.md",
+    "微信读书/文学/谁是最可爱的人.md",
+    "微信读书/心理/认知觉醒：开启自我改变的原动力.md",
+    "微信读书/文学/活着.md",
+    "微信读书/文学",
+    "微信读书/计算机/操作系统导论.md",
+    "微信读书/计算机/高质量程序设计指南：C++C语言.md",
+    "微信读书/历史/漫画百年党史·开天辟地（1921—1949）.md",
+    "微信读书/历史",
+    "微信读书/计算机/Vim实用技巧.md",
+    "微信读书/计算机",
+    "微信读书/人物传记/走进钱学森2019.md",
+    "微信读书/人物传记",
+    "微信读书/经济理财/邻家的百万富翁（实现财务自由的致富指南）.md",
+    "书库/T_工业技术/TP_计算机技术/编码.md",
+    "书库/T_工业技术/TP_计算机技术/编码.md",
+    "书库/T_工业技术/TN_电信技术/深入浅出通信原理.md",
+    "读书笔记",
+    "微信读书/个人成长",
+    "微信读书/心理",
+    "微信读书/科学技术",
+    "微信读书/经济理财",
+    "微信读书/社会文化",
+    "Banner/Library.png"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "height": 350,
+  "style": "gradient",
+  "showInInternalEmbed": false,
+  "internalEmbedHeight": null,
+  "showInPreviewEmbed": false,
+  "previewEmbedHeight": null,
+  "frontmatterField": "banner",
+  "bannerDragModifier": "none",
+  "iconHorizontalAlignment": "left",
+  "iconHorizontalTransform": null,
+  "iconVerticalAlignment": "center",
+  "iconVerticalTransform": null,
+  "useTwemoji": false,
+  "showPreviewInLocalModal": true,
+  "localSuggestionsLimit": null,
+  "bannersFolder": "/000_Sundries/020_Picture/BANNER",
+  "allowMobileDrag": false
+}

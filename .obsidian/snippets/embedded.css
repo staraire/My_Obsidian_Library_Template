@@ -1,0 +1,98 @@
+/* 紧凑的嵌入———————————————————— */
+
+/* 缩减不必要的边距 */
+
+.markdown-preview-view .markdown-preview-sizer
+.markdown-embed{
+   margin-top: 0px !important;
+   margin-bottom: 3px !important;
+   padding-top: 0px;
+   padding-bottom: 0px;
+
+}
+.markdown-preview-sizer .markdown-preview-section{
+   margin: 0px !important;
+   /* padding: 0px 0px !important; */
+   padding-left: 5px !important;
+   padding-right: 5px !important;
+   padding-top: 0px !important;
+   padding-bottom: 0px !important;
+}
+/* ———————————————— */
+.markdown-preview-view{
+   padding: 50px;
+}
+.markdown-embed .markdown-preview-sizer{
+   padding-left: 10px;
+
+}
+  
+
+/* 隐藏嵌入的标题 */
+.markdown-embed-title,
+.markdown-embed h1,
+.markdown-embed h2,
+.markdown-embed h3,
+.markdown-embed h4,
+.markdown-embed h5,
+.markdown-embed h6{
+   display: none !important;
+}
+
+
+
+.markdown-preview-view .markdown-embed-content > .markdown-preview-view{
+   min-height: min-content !important;
+   max-height: 500px !important;
+   background-color: var(--embed-bg);
+   vertical-align: top !important;
+}
+
+
+/* 在嵌入的文件前显示来源 &nbsp;显示宽度为5em 根据实际情况可采用40px之类的值 超出部分隐藏*/
+/* .internal-embed:not([src$=".png"]) :not([src$=".bmp"]) :not([src$=".svg"])::before{
+.internal-embed::before{
+   content: attr(alt) " ";
+   display:block;
+   width: 5em !important;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: clip;
+} */
+
+
+/* 在嵌入的文件上方画一条上边框线 */
+
+.markdown-embed:not([src*="."]){
+   /* border-top: solid 1px #ff3c00; */
+   border: #888 solid 1px;
+   border-radius: 0px;
+}
+
+
+/* 嵌入文件的右上方打开链接按钮 */
+.markdown-embed-link{
+   top: 10px !important;
+   right: 20px !important;
+   text-align: right;
+   width: 26px !important;
+   height: 26px;
+   border-radius:   5px;
+   padding: 3px;
+   /*指定链接按钮背后的背景色（现在为透明色）*/
+   background-color: #2e970e00;
+   /*指定链接的图标颜色*/
+   color: #ffffff !important;
+}
+
+
+/* 修复banner和新版本冲突 */
+
+.obsidian-banner-wrapper {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.mod-header:has(+ .obsidian-banner-wrapper) {
+  margin-top: var(--banner-height);
+}
